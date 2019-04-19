@@ -1,9 +1,17 @@
-import login from './view/login'
+// import login from './view/login'
 import first from './view/First'
-import Xheader from './components/Xheader'
-
+import Tantan from './view/Tantan'
+import mine from './view/Mine'
+import sign from './view/Sign'
+import reg from './view/Reg'
+import discover from './view/discover'
+import fujing from './view/fujing'
 export const routes = [
     {path:'/',name:'first',component:first},
-    {path:'/login',name:'login',component:login},
-    {path:'/xheader',name:'xheader',component:Xheader}
+    {path:'/Tantan',name:'Tantan',component:Tantan},
+    { path: '/mine', component: mine },
+    { path: '/sign', component: sign, name: 'signIn' },
+    { path: '/reg', component: reg, name: 'regIn' },
+    { path: '/discover', component: discover, name: 'discover' },
+    { path: '/fujing', component: fujing, name: 'fujing' },
   ]

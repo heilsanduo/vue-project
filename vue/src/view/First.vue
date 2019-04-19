@@ -23,7 +23,7 @@ export default {
       //1,返回上一页
       //   this.$router.go(-1);
       //2,指定跳转路由的名字
-      this.$router.replace({ name: "login" });
+      this.$router.replace({ name: "regIn" });
       //3,通过push进行跳转
       // this.$router.push('/login');
     }
